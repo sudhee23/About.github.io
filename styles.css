@@ -48,23 +48,23 @@ body{
 
 h1 ,h2 {
     text-align: center;
-    font-weight:100;
     letter-spacing: 2px;
-    font-family:'Montserrat-Black';
+    font-family:'Montserrat',sans-serif;
+    
 }
 
 h1{
     font-size:3rem;
     padding-bottom:3%;
-    color:#0d5804;
+    color:#c32219;
     font-weight:500;
 }
 
 h2{
     font-size:2.5rem;
+    font-weight:300;
     padding-top: 0;
     color:#2d23bd;
-    text-decoration: underline 1px;
 }
 
 .content{
@@ -72,8 +72,7 @@ h2{
     border-radius:0.125rem; 
     padding:3%;
     box-shadow: 0 8px 32px 0;
-    background-color: #fff;
-    background-color: #c32219; 
+    background-color: #dc610a;
 }
 
 @media (max-width:730px){
@@ -84,9 +83,8 @@ h2{
         font-size:1.25rem;
         line-height:1.75;
     }
-    .content h1{
-        font-weight:800;
-    }
+    h2{font-size:2rem}
+
     #btntext, #btntext1, #btntext2{
         display:none;
     }
@@ -102,12 +100,16 @@ h2{
     }
 
     h2{
-        font-size:2rem;
+        font-size:1.5rem;
     }
+    h1 , h2 {letter-spacing:0}
     body{
         padding:7% 3%;
     }
     .content p{
-        font-size:1rem;
+        font-size:0.8rem;
+    }
+    .content div{
+        justify-content: normal;
     }
 }
